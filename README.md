@@ -4,8 +4,8 @@
 
 早期做 PHP 框架和 LNMP 环境，后来更多转向 Go、桌面工具和本地 AI。
 
-- 🔭 最近在做：Osmo Pocket 跟拍、本地 RAG、磁盘分析、ESP32 活体感应
-- 🌱 技术栈：Go / PHP / Python / Vue / Swift / Shell
+- 🔭 最近在做：飞书工作雷达、企微告警中台、朋友圈监测、手机群控、AI 拳皇
+- 🌱 技术栈：Go / PHP / Python / Vue / C# / Swift / Shell
 - 📫 主页：[www.shengsheng.net](https://www.shengsheng.net)
 - 📍 China · silang
 
@@ -37,14 +37,14 @@
 
 | 项目 | 说明 |
 | --- | --- |
-| [PocketShow](https://github.com/showx/PocketShow) | DJI Osmo Pocket 3 本地智能跟拍：检测、锁人、PID，再驱动云台 |
-| [RagShow](https://github.com/showx/RagShow) | 面向 Obsidian 的本地优先 RAG，笔记不出库 |
-| [diskshow](https://github.com/showx/diskshow) | 终端磁盘占用分析，嵌套矩形树图，交互接近 SpaceSniffer |
-| [espshow](https://github.com/showx/espshow) | ESP32-S3 Wi-Fi CSI 活体感应，不靠摄像头 |
-| [androidshow](https://github.com/showx/androidshow) | 跨平台安卓工具箱，统一封装 apktool / jadx / bundletool |
-| [agentshow](https://github.com/showx/agentshow) | 超精简多机 Agent：一台 Hub，多台 Node，网页或企微下发命令 |
-| [compareshow](https://github.com/showx/compareshow) | 本地 / SFTP 桌面文件对比，接近 Beyond Compare |
-| [EditingShow](https://github.com/showx/EditingShow) | 剪辑相关（Swift） |
+| [FeishuShow](https://github.com/showx/FeishuShow) | 飞书今日雷达：日程、发呆文档、待办，点一场会出纪要 |
+| [WorkWeiXinShow](https://github.com/showx/WorkWeiXinShow) | 企微通：把告警、GitLab、日报接到企业微信 |
+| [MomentShow](https://github.com/showx/MomentShow) | macOS 微信朋友圈监测：截图 OCR，存成本地时间线 |
+| [PhoneGroupShow](https://github.com/showx/PhoneGroupShow) | Windows 安卓群控台，WPF 同步点按多台真机 |
+| [AiKof97](https://github.com/showx/AiKof97) | 用强化学习打拳皇 97：MAME + 双智能体 PPO |
+| [GameReleaseSdk](https://github.com/showx/GameReleaseSdk) | 开源游戏发行 SDK |
+| [PokerShow](https://github.com/showx/PokerShow) | 扑克相关 |
+| [PocketShow](https://github.com/showx/PocketShow) | DJI Osmo Pocket 3 本地智能跟拍 |
 
 ---
 
@@ -67,14 +67,19 @@
 - [mysqlshow](https://github.com/showx/mysqlshow) · [redisshow](https://github.com/showx/redisshow) · [kafkashow](https://github.com/showx/kafkashow)
 - [mongox](https://github.com/showx/mongox) · [ipshow](https://github.com/showx/ipshow) · [diskshow](https://github.com/showx/diskshow)
 
+**协作与 IM**
+
+- [FeishuShow](https://github.com/showx/FeishuShow) · [WorkWeiXinShow](https://github.com/showx/WorkWeiXinShow) · [MomentShow](https://github.com/showx/MomentShow)
+
 **AI 与硬件**
 
 - [aishow](https://github.com/showx/aishow) · [RagShow](https://github.com/showx/RagShow) · [agentshow](https://github.com/showx/agentshow) · [tipshow](https://github.com/showx/tipshow) · [ocrshow](https://github.com/showx/ocrshow)
-- [PocketShow](https://github.com/showx/PocketShow) · [espshow](https://github.com/showx/espshow) · [EditingShow](https://github.com/showx/EditingShow)
+- [PocketShow](https://github.com/showx/PocketShow) · [espshow](https://github.com/showx/espshow) · [EditingShow](https://github.com/showx/EditingShow) · [AiKof97](https://github.com/showx/AiKof97)
 
 **桌面与客户端**
 
-- [androidshow](https://github.com/showx/androidshow) · [compareshow](https://github.com/showx/compareshow) · [discushow](https://github.com/showx/discushow) · [todoshow](https://github.com/showx/todoshow) · [landingpageshow](https://github.com/showx/landingpageshow)
+- [androidshow](https://github.com/showx/androidshow) · [PhoneGroupShow](https://github.com/showx/PhoneGroupShow) · [compareshow](https://github.com/showx/compareshow)
+- [discushow](https://github.com/showx/discushow) · [todoshow](https://github.com/showx/todoshow) · [landingpageshow](https://github.com/showx/landingpageshow) · [gameshow](https://github.com/showx/gameshow) · [PokerShow](https://github.com/showx/PokerShow) · [GameReleaseSdk](https://github.com/showx/GameReleaseSdk)
 
 **其它常用**
 
@@ -90,6 +95,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
